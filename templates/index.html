@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Algorithm Visualizer</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="ball-container"></div>
+    <h1>Sorting Algorithm Visualizer</h1>
+    <div>
+      <label for="algorithm">Choose an algorithm:</label>
+      <select id="algorithm">
+        <option value="insertion">Insertion Sort</option>
+        <option value="bubble">Bubble Sort</option>
+        <option value="selection">Selection Sort</option>
+        <option value="merge">Merge Sort</option>
+        <option value="quick">Quick Sort</option>
+        <option value="heap">Heap Sort</option>
+        <option value="shell">Shell Sort</option>
+        <option value="counting">Counting Sort</option>
+        <option value="radix">Radix Sort</option>
+      </select>
+    </div>
+    <div>
+      <label for="speed">Choose speed:</label>
+      <select id="speed">
+        <option value="1">1 ms</option>
+        <option value="10">10 ms</option>
+        <option value="50">50 ms</option>
+        <option value="100">100 ms</option>
+      </select>
+    </div>
+    <button id="start-reset-button" onclick="startSort()">Start Sort</button>
+    <div id="array-container"></div>
+    <footer>
+      Developed by <a href="http://boranozel.com" target="_blank">Boran</a>
+    </footer>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
