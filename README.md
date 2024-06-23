@@ -2,6 +2,8 @@
 
 Welcome to the Sort Visualizer project! This web application visualizes different sorting algorithms to help you understand how they work in a dynamic and interactive way.
 
+![Sort Visualizer](./img.png)
+
 ## 🌟 Features
 
 - 🔄 Visualize various sorting algorithms
