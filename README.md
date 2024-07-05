@@ -4,6 +4,8 @@ Welcome to the Sort Visualizer project! This web application visualizes differen
 
 ![Sort Visualizer](./img.png)
 
+For a video demonstration, click [here](https://youtu.be/Rd0Z_Psj9ks).
+
 ## 🌟 Features
 
 - 🔄 Visualize various sorting algorithms
