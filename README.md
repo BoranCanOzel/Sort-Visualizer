@@ -6,6 +6,10 @@ Welcome to the Sort Visualizer project! This web application visualizes differen
 
 For a video demonstration, click [here](https://youtu.be/Rd0Z_Psj9ks).
 
+## 🔗 Live Demo
+
+You can test the application [here](https://boranozel.com/pythonapp/).
+
 ## 🌟 Features
 
 - 🔄 Visualize various sorting algorithms
